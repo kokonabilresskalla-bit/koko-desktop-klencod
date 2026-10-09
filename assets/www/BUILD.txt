@@ -1,0 +1,16 @@
+Koko Desktop
+الحزمة: com.koko.desktop
+اسم التطبيق: Koko Desktop
+
+التجميع على أندرويد:
+1) فك الضغط
+2) افتح الطرفية جوه المجلد
+3) npm install
+4) npx cap add android
+5) npx cap sync android
+6) npx cap open android
+7) من Android Studio: Build ثم Build APK
+
+الدخول: boot.html
+الأيقونة: pwa/logo.png غيّرها لو عايز شكل تاني.
+الرخصة الأصلية EPL موجودة في LICENSE ومتتسابش.
