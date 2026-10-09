@@ -1,0 +1,33 @@
+name: koko_desktop
+description: Koko Desktop web shell
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^6.1.5
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/www/
+    - assets/www/apps/icons/about/
+    - assets/www/apps/icons/edge/
+    - assets/www/apps/icons/explorer/
+    - assets/www/apps/icons/setting/
+    - assets/www/apps/icons/whiteboard/
+    - assets/www/apps/style/
+    - assets/www/data/
+    - assets/www/fonts/
+    - assets/www/icon/
+    - assets/www/icon/files/
+    - assets/www/icon/folder/
+    - assets/www/img/
+    - assets/www/media/
+    - assets/www/module/
+    - assets/www/pwa/
+    - assets/www/scripts/
